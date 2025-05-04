@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#000000"
+    android:paddingTop="40dp">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logoVueling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vueling" />
+
+    <!-- Texto explicativo -->
+    <TextView
+        android:id="@+id/textoInfo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="This mode will give you all the indispensable information during this situation." />
+
+    <!-- Espaciador para empujar el botón hacia abajo -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Botón de salida -->
+    <ImageButton
+        android:id="@+id/btnExitBlackout"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Exit"
+        android:scaleType="centerInside"
+        android:src="@drawable/backpanel" />
+
+</LinearLayout>

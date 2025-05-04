@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="16dp">
+
+    <!-- Flecha de volver -->
+
+    <!-- Título "FAQS" -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="38dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="Back"
+        android:scaleType="fitCenter"
+        android:src="@drawable/blancafletcha" />
+
+    <TextView
+        android:id="@+id/textTituloFAQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAQS"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/btnBack"
+        />
+
+
+    <!-- Línea blanca -->
+    <View
+        android:id="@+id/lineaSeparadora"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/btnBack"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF" />
+
+    <!-- Scroll con FAQs -->
+    <ScrollView
+        android:layout_below="@id/lineaSeparadora"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- FAQ 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/faq_card_backgorund"
+                android:padding="16dp"
+                android:layout_marginBottom="24dp"
+                android:elevation="4dp"
+                android:clipToOutline="true">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Is it safe to stay here?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The safety of all passengers and staff is our highest priority. We are currently evaluating the situation to ensure that facilities remain safe during the power outage."
+                    android:textColor="#CCCCCC"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <!-- FAQ 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/faq_card_backgorund"
+                android:padding="16dp"
+                android:elevation="4dp"
+                android:clipToOutline="true"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What transportation options are available?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Metro (L9 Sud) and some bus lines may be affected. Delays are expected. Check signage or ask airport staff for updates."
+                    android:textColor="#CCCCCC"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <!-- FAQ 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/faq_card_backgorund"
+                android:padding="16dp"
+                android:elevation="4dp"
+                android:clipToOutline="true"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Where can I get more information?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Please go to the nearest Vueling help desk or ask airport staff with a yellow vest. You may also check updates on the official Vueling website."
+                    android:textColor="#CCCCCC"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <!-- FAQ 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/faq_card_backgorund"
+                android:padding="16dp"
+                android:elevation="4dp"
+                android:clipToOutline="true"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Will flights be delayed?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Some delays are possible. Please check your flight status at the help desk or contact your airline directly."
+                    android:textColor="#CCCCCC"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!-- FAQ 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/faq_card_backgorund"
+                android:padding="16dp"
+                android:elevation="4dp"
+                android:layout_marginBottom="24dp"
+                android:clipToOutline="true">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Can I use charging stations?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Charging stations may not work during the blackout. Please ask staff for alternative options."
+                    android:textColor="#CCCCCC"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

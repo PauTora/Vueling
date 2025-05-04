@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="16dp">
+
+    <!-- Botón de volver -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/blancafletcha"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:contentDescription="Back" />
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/textTituloTickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/btnBack"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/btnBack"
+        android:text="My Flights"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!-- Línea -->
+    <View
+        android:id="@+id/separador"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/btnBack"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="12dp"
+        android:background="#FFFFFF" />
+
+    <!-- Lista de vuelos -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerVuelos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/separador"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp" />
+</RelativeLayout>

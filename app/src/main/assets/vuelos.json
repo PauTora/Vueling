@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "departure": "Barcelona",
+    "arrival": "Madrid",
+    "flight_number": "IB1234",
+    "date": "2025-06-07",
+    "time": "10:00 AM",
+    "gate": "Gate B23",
+    "passenger_name": "John Doe",
+    "seat": "14A",
+    "ticket_type": "Economy"
+  },
+  {
+    "id": 2,
+    "departure": "Madrid",
+    "arrival": "Bogotà",
+    "flight_number": "IB5678",
+    "date": "2025-06-08",
+    "time": "9:30 AM",
+    "gate": "Gate D12",
+    "passenger_name": "Jane Smith",
+    "seat": "18C",
+    "ticket_type": "Business"
+  }
+]
