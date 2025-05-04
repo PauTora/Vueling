@@ -1,30 +1,30 @@
 # Vueling App - Android Project
 
-## Descripción
+## Description
 
-Este proyecto es una aplicación Android para Vueling, diseñada para gestionar vuelos y mostrar información interactiva como el mapa del Aeropuerto de Barcelona El Prat. La app incluye diversas secciones como la visualización de tickets, preguntas frecuentes (FAQ) y un mapa interactivo de los aeropuertos.
+This project is an Android application for Vueling, designed to manage flights and display interactive information such as the Barcelona El Prat Airport map. The app includes various sections such as flight viewing, frequently asked questions (FAQ), and an interactive map of the airports.
 
-### Características:
-- **My Flights (Mis Vuelos)**: Visualización de los vuelos del usuario, con posibilidad de consultar detalles de cada uno.
-- **Detalles de Vuelo**: Pantalla con la información detallada de cada vuelo (hora, puerta, asiento, etc.).
-- **FAQ**: Preguntas frecuentes sobre el aeropuerto y los vuelos.
-- **Mapa Interactivo**: Mapa interactivo del aeropuerto de Barcelona El Prat, con la capacidad de hacer zoom y desplazarse por la imagen.
-
----
-
-## Requisitos
-
-Antes de empezar, asegúrate de tener los siguientes requisitos instalados en tu máquina:
-
-- **Android Studio**: Para poder abrir y ejecutar el proyecto.
-- **SDK de Android**: Debes tener configurado Android SDK, al menos con la versión `SDK 35` o superior.
-- **Java 11**: Este proyecto está configurado para ser compatible con Java 11.
+### Features:
+- **My Flights**: View the user's flights with the option to check detailed information for each one.
+- **Flight Details**: A screen showing detailed flight information (time, gate, seat, etc.).
+- **FAQ**: Frequently asked questions about the airport and flights.
+- **Interactive Map**: An interactive map of Barcelona El Prat Airport, with the ability to zoom and move around the image.
 
 ---
 
-## Instalación
+## Requirements
 
-1. Clona este repositorio en tu máquina local:
+Before you begin, ensure you have the following installed on your machine:
+
+- **Android Studio**: To open and run the project.
+- **Android SDK**: You should have the Android SDK set up, at least with version `SDK 35` or higher.
+- **Java 11**: This project is configured to be compatible with Java 11.
+
+---
+
+## Installation
+
+1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/tu-usuario/vuelings-app.git
+   git clone https://github.com/your-username/vuelings-app.git
